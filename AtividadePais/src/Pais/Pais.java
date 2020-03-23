@@ -1,57 +1,43 @@
-package atividadePais;
+package pais; 
 
-public class Pais {
-	public int idPais;
-	public String nomePais;
-	public long populacaoPais;
-	public double areaPais;
+public class Pais{
+	private int id;
+	private String nome;
+	private long populacao;
+	private double area;
 	
 	public Pais() {
 	}
 
-	@Override
-	public String toString() {
-		return "Pais [idPais=" + idPais + ", nomePais=" + nomePais + ", populacaoPais=" + populacaoPais + ", areaPais="
-				+ areaPais + "]";
+	public int getId() {
+		return id;
 	}
 
-	public Pais(int id, String nome, long populacao, double area) {
-		idPais = id;
-		nomePais = nome;
-		populacaoPais = populacao;
-		areaPais = area;
-	}
-	
-	public int getIdPais() {
-		return idPais;
+	public void setId(int id) {
+		this.id = id;
 	}
 
-	public void setIdPais(int idPais) {
-		this.idPais = idPais;
+	public String getNome() {
+		return nome;
 	}
 
-	public String getNomePais() {
-		return nomePais;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
-	public void setNomePais(String nomePais) {
-		this.nomePais = nomePais;
+	public long getPopulacao() {
+		return populacao;
 	}
 
-	public long getPopulacaoPais() {
-		return populacaoPais;
+	public void setPopulacao(long populacao) {
+		this.populacao = populacao;
 	}
 
-	public void setPopulacaoPais(long populacaoPais) {
-		this.populacaoPais = populacaoPais;
+	public double getArea() {
+		return area;
 	}
 
-	public double getAreaPais() {
-		return areaPais;
+	public void setArea(double area) {
+		this.area = area;
 	}
-
-	public void setAreaPais(double areaPais) {
-		this.areaPais = areaPais;
-	}
-	
 }
