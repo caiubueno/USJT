@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Arquitetura e Desenvolvimento de Sistemas Multicamadas/Aula04-USJT-2019-ArqDeSisMulti-Patterns Estrut Comp-adap-faca-stra-templ/Aula04-Codigo-USJT-2019-ArqDeSisMulti-Patterns Estrut Comp-adap-faca-stra-templ"/>
+	<classpathentry kind="src" path="Arquitetura e Desenvolvimento de Sistemas Multicamadas/singleton/src"/>
+	<classpathentry kind="src" path="PPI/Aula 04/exemplo"/>
+	<classpathentry kind="src" path="PPI/src"/>
+	<classpathentry kind="lib" path="Arquitetura e Desenvolvimento de Sistemas Multicamadas/Aula04-USJT-2019-ArqDeSisMulti-Patterns Estrut Comp-adap-faca-stra-templ/Aula04-Codigo-USJT-2019-ArqDeSisMulti-Patterns Estrut Comp-adap-faca-stra-templ.jar"/>
+	<classpathentry kind="lib" path="PPI/AtividadePais/AtividadePais/lib/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry kind="output" path="Arquitetura e Desenvolvimento de Sistemas Multicamadas/singleton/bin"/>
+</classpath>
