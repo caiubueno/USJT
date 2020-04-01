@@ -16,7 +16,7 @@ public class connectionFactory {
 	}
 
 	// Obtem conexão com o banco de dados
-	public static Connection obtemConexao() throws SQLException {
+	public static Connection obtemConexao() throws SQLException { 
 		return DriverManager.getConnection("jdbc:mysql://localhost/paises?user=root&password=Aluno&useSSL=false&useTimezone=true&serverTimezone=UTC");
 	}
 
