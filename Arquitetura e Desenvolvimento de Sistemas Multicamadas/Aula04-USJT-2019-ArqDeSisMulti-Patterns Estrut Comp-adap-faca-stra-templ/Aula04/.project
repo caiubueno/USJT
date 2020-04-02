@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>arqsw08_estrut_comp</name>
+	<name>aula4.adsm.lab</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -13,6 +13,5 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
-		<nature>net.sf.eclipse.tomcat.tomcatnature</nature>
 	</natures>
 </projectDescription>
