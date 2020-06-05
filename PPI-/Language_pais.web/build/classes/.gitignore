@@ -1,2 +1,5 @@
-/command/
+/filter/
+/service/
+/model/
+/dao/
 /controller/

@@ -5,6 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionFactory {
+
+	private static final ThreadLocal<Connection> conn = new ThreadLocal<>();
+
 	static {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -13,10 +16,18 @@ public class ConnectionFactory {
 		}
 	}
 
-	// Obtem conexção com o banco de dados
 	public static Connection obtemConexao() throws SQLException {
-		return DriverManager
-				.getConnection("jdbc:mysql://localhost:3306/mundo?useTimezone=true&serverTimezone=America/Sao_Paulo&user=root&password=819229668");
+		if (conn.get() == null){
+			conn.set(DriverManager
+					.getConnection("jdbc:mysql://localhost:3306/mundo?useTimezone=true&serverTimezone=America/Sao_Paulo&user=root&password=7849516230Ee"));
+		}
+		return conn.get();
 	}
 
+	public static void fecharConexao() throws SQLException {
+		if(conn.get() != null){
+			conn.get().close();
+			conn.set(null);
+		}
+	}
 }
